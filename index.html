@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The F.A.T Club is a playful community for big laughs, bigger adventures, and the biggest snack table in town."
+    />
+    <title>F.A.T Club | Food, Antics & Togetherness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="F.A.T Club home">
+          <span class="brand-mark">F</span>
+          <span class="brand-mark">A</span>
+          <span class="brand-mark">T</span>
+          <span class="brand-text">Club</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#events">Events</a>
+          <a href="#perks">Perks</a>
+          <a href="#join" class="button button-small">Join Up</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Food • Antics • Togetherness</p>
+          <h1>Welcome to the club for big laughs and legendary snack breaks.</h1>
+          <p class="hero-text">
+            F.A.T Club is a no-pressure hangout for friends who believe every great story starts
+            with good people, ridiculous games, and a table full of comfort food.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#join">Become a member</a>
+            <a class="button button-ghost" href="#events">See events</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Club highlights">
+          <div class="plate">
+            <span class="bite bite-one"></span>
+            <span class="bite bite-two"></span>
+            <span class="plate-inner">F.A.T</span>
+          </div>
+          <ul>
+            <li><strong>24+</strong><span>monthly snack debates</span></li>
+            <li><strong>0</strong><span>boring meetings allowed</span></li>
+            <li><strong>100%</strong><span>come-as-you-are energy</span></li>
+          </ul>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section intro" id="about">
+        <div class="section-label">About us</div>
+        <div>
+          <h2>A club built on inside jokes, full plates, and showing up for each other.</h2>
+          <p>
+            We started F.A.T Club because adult friendships deserve a standing reservation. Our
+            meetups mix potluck-style food, goofy challenges, local outings, and enough friendly
+            trash talk to keep everyone humble.
+          </p>
+        </div>
+      </section>
+
+      <section class="values" aria-label="Club values">
+        <article>
+          <span class="icon">🍔</span>
+          <h3>Bring the flavor</h3>
+          <p>Share a dish, a recommendation, or a hot take on the best late-night order.</p>
+        </article>
+        <article>
+          <span class="icon">🎲</span>
+          <h3>Keep it ridiculous</h3>
+          <p>Game nights, dares, team challenges, and traditions that get funnier every month.</p>
+        </article>
+        <article>
+          <span class="icon">🤝</span>
+          <h3>Everybody belongs</h3>
+          <p>No cliques, no pressure, no gatekeeping. Just good people making room at the table.</p>
+        </article>
+      </section>
+
+      <section class="section events" id="events">
+        <div class="section-label">Upcoming events</div>
+        <div class="event-grid">
+          <article class="event-card featured">
+            <p class="event-date">Friday • 7 PM</p>
+            <h3>The Great Snack Draft</h3>
+            <p>
+              Teams draft the ultimate party spread, then defend their picks in front of a very
+              opinionated snack jury.
+            </p>
+            <a href="#join">Save a seat</a>
+          </article>
+          <article class="event-card">
+            <p class="event-date">Saturday • Noon</p>
+            <h3>Park Picnic Olympics</h3>
+            <p>Blankets, lawn games, cooler raids, and medals that are absolutely not regulation.</p>
+          </article>
+          <article class="event-card">
+            <p class="event-date">Next Wednesday</p>
+            <h3>Comfort Food Cookoff</h3>
+            <p>Bring your signature dish or just bring your appetite and highly biased scoring.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="perks" id="perks">
+        <div class="perk-copy">
+          <p class="eyebrow">Member perks</p>
+          <h2>What you get when you roll with the F.A.T Club</h2>
+        </div>
+        <div class="perk-list">
+          <div><span>01</span>Monthly hangouts with rotating themes and zero awkward icebreakers.</div>
+          <div><span>02</span>A private group chat for plans, memes, polls, and snack emergencies.</div>
+          <div><span>03</span>Member-made traditions, trophies, nicknames, and seasonal challenges.</div>
+          <div><span>04</span>A welcoming crew that celebrates big personalities and bigger laughs.</div>
+        </div>
+      </section>
+
+      <section class="join" id="join">
+        <div>
+          <p class="eyebrow">Ready?</p>
+          <h2>Pull up a chair. The next round is better with you in it.</h2>
+          <p>
+            Drop your name and favorite snack. We’ll send the next meetup details and the current
+            clubhouse rules, which mostly involve showing up hungry and being cool to people.
+          </p>
+        </div>
+        <form class="join-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Favorite snack
+            <input type="text" name="snack" placeholder="Nachos, cookies, wings..." required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <button class="button" type="submit">Request an invite</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 F.A.T Club. Built for friendship, flavor, and foolishness.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
